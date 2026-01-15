@@ -5,9 +5,9 @@ Imports System.Reflection
 Imports System.Windows.Data
 
 Namespace DeploymentAutomationGUI.Converters
-    ''' <summary>
+
     ''' 枚举到描述转换器
-    ''' </summary>
+
     Public Class EnumToDescriptionConverter
         Implements IValueConverter
         
@@ -56,4 +56,5 @@ Namespace DeploymentAutomationGUI.Converters
             Return Nothing
         End Function
     End Class
+
 End Namespace
